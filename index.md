@@ -91,3 +91,19 @@ Anyone else wins 1 point.
 This round is now worth double points, and double punishments. 
 And whomever rolled gets to choose the minigame. 
 And replace one item on the punishment list with a custom punishment of their own choosing. 
+
+## Punishments
+
+These can stack up quickly; its best to avoid a punishment. 
+The player getting punished must roll a die, and either accept the punishment or forfeit the game. 
+
+1. Must eat three bites instead of one. 
+1. Must speak in a silly accent the entire rest of the game; a slip up means they lose a point. 
+1. Must not use personal pronouns; each slip up means they lose a point. 
+1. Lose 3 points immediately. 
+1. Give 1 point to the person who rolled the minigame. 
+1. Must close eyes and spin around thirteen times after every bite. Throwing up equals forfeit. 
+1. Must sing everything in a falsetto instead of speaking or singing any other way. Each slip up costs a point. 
+1. Must drink a double shot of hot water before every bite. 
+1. Cannot audibly exhale, sigh, groan, moan, or whine. Each slip up costs one point. 
+1. Forfeits the right to drink any beverages for the duration of the game. 
