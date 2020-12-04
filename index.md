@@ -11,6 +11,20 @@ Each round, the next player will roll a die to determine the the minigame everyo
 
 If a player is unable to unwilling to complete a minigame, the other players will roll the die to select a punishment to apply to the offending player, in exchange for keeping them in the game. If the punishment is not accepted, that player is OUT.
 
+## Winning 
+
+The person with the most points at the end of the game, or the last person still in the game with any score, is the winner. 
+
+## Required Materials 
+
+- Pens and paper (sticky notes or index cards preferred) 
+- Dice (10- or 20-sided preferred) 
+- Smartphones with internet access 
+- A selection of hot sauces of varying heat levels 
+- Some kind of food with which to eat the sauces 
+- Preferably water and/or milk on standby
+- Plenty of toilet paper, for later. Also, the good common sense to wash hands BEFORE going potty, as well as after. 
+
 ## Minigames
 
 Roll a 10- or 20-sided die (or select your six favorite minigames and roll a regular 6-sided die, you normie). The minigames are as follows:
