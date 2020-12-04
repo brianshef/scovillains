@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+# Scovillains
+A fun and spicy game to play with friends or family who love hot sauce.
 
-You can use the [editor on GitHub](https://github.com/brianshef/scovillains/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Compete for points across a series of randomly-selected minigames as you sample increasingly spicy hot sauces.
 
-### Markdown
+Before play, the players select the order of hot sauces, arranged from mild to hottest. The recommended way to partake of the sauces is by preparing food featuring them, such as chicken wings; or by dipping something like a tortilla chip or french fry into a tiny dollop. Each hot sauce is a "round."
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Each round, the next player will roll a die to determine the the minigame everyone must play that round. During the round, each player will take a bite of the hot sauce, and then attempt to complete the minigame.
 
-```markdown
-Syntax highlighted code block
+If a player is unable to unwilling to complete a minigame, the other players will roll the die to select a punishment to apply to the offending player, in exchange for keeping them in the game. If the punishment is not accepted, that player is OUT.
 
-# Header 1
-## Header 2
-### Header 3
+## Minigames
 
-- Bulleted
-- List
+Roll a 10- or 20-sided die (or select your six favorite minigames and roll a regular 6-sided die, you normie). The minigames are as follows:
 
-1. Numbered
-2. List
+1. Trivia
+1. Sing-Along
+1. Explain that 'Gram
+1. Truth or Dare
+1. Would You Rather
+1. Charades
+1. Scenes from a Hat
+1. Riddles in the Dark
+1. Blackjack
+1. Double Trouble
 
-**Bold** and _Italic_ and `Code` text
+### Trivia
 
-[Link](url) and ![Image](src)
-```
+Each player rolls the die again to determine a trivia category:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1. Sports and Games
+1. TV and Film
+1. Science
+1. Art and Literature
+1. History and Geography
 
-### Jekyll Themes
+( If you're using a 10-sided die, then 1-2 is _Sports and Games_, 3-4 is _TV and Film_, and so on. If you're using a 6-sided die, then add a _Player's Choice_ category for a roll of 6. Don't overthink this. )
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brianshef/scovillains/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Another player will Google an appropriately-challenging trivia question. If the rolling player gets the question right, the earn a point. If they get the question wrong, it's punishment time!
 
-### Support or Contact
+### Sing-Along
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Explain that 'Gram
+
+### Truth or Dare
+
+### Would You Rather
+
+### Charades
+
+### Scenes from a Hat
+
+### Riddles in the Dark
+
+### Blackjack
+
+### Double Trouble
+
