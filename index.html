@@ -8,20 +8,26 @@
         <!-- Custom styling -->
         <style>
             main {
-                margin-top: 60px;
+                margin-top: 100px;
+            }
+            .card {
+                margin: 10px 5px 5px 10px
             }
         </style>
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
         <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
 
         <title>Scovillains</title>
     </head>
 
     <body style="font-family:Open Sans; font-size:20px">
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-danger" style="background-color:#c628287">
-            <a class="navbar-brand" style="font-family:Open Sans; color:white" href="#">Scovillains</a>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger">
+            <a class="navbar-brand" style="font-family:Open Sans;" href="#">Scovillains</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,13 +38,10 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://brianshef.github.io/pubquest/about">About</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="https://brianshef.github.io/">About the Author</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://bigd20games.wordpress.com/">BigD20 Games</a>
+                        <a class="nav-link" href="https://brianshef.github.io/pubquest">PubQuest</a>
                     </li>
                 </ul>
 
@@ -52,20 +55,183 @@
         </nav>
 
         <main role="main">
-            <div class="container-fluid">
-                <div class="row text-center">
+            <div class="container-fluid" style="font-family:Helvetica">
+                <div class="row">
                     <div class="col-sm-12">
-                        <h1 class="display-2" style="font-family:Open Sans;color:#c628287">Scovillains</h1>
-                        <h2 class="text-secondary" style="font-family:Open Sans">A fun and spicy game to play with friends or family who love hot sauce.</h2>
+                        <h1 class="display-1 text-danger" style="font-family:Yeon Sung;">Scovillains</h1>
+                        <p class="text-secondary" style="font-family:Helvetica">A fun and spicy game to play with friends or family who love hot sauce.</p>
                     </div>
                 </div>
-                
-
-              
 
                 <div class="row">
-                    <div class="col-md-12">
-                        <hr />
+                    <div class="col-md-6">
+                        <h2 class="text-danger" style="font-family:Yeon Sung;">Overview</h2>
+                        <div>
+                            <p>Compete for points across a series of randomly-selected minigames as you sample increasingly spicy hot sauces.
+                            <p>Before play, the players select the order of hot sauces, arranged from mild to hottest. The recommended way to partake of the sauces is by preparing food featuring them, such as chicken wings; or by dipping something like a tortilla chip or french fry into a tiny dollop. Each hot sauce is a “round.”
+                            <p>Each round, the next player will roll a die to determine the the minigame everyone must play that round. During the round, each player will take a bite of the hot sauce, and then attempt to complete the minigame.
+                            <p>If a player is unable or unwilling to complete a minigame, they must suffer a punishment, in exchange for keeping them in the game. If the punishment is not accepted, that player is OUT.
+                        </div>
+                        <h2 class="text-danger" style="font-family:Yeon Sung;">Winning</h2>
+                        <div>
+                            <p>The person with the most points at the end of the game, or the last person still in the game with any score, is the winner.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="text-danger" style="font-family:Yeon Sung;">Required Materials</h2>
+                        <div>
+                            <ul>
+                                <li>Pens and paper (sticky notes or index cards preferred).</li>
+                                <li>Dice (10- or 20-sided preferred).</li>
+                                <li>Smartphones with internet access.</li>
+                                <li>A regular deck of playing cards.</li>
+                                <li>A selection of hot sauces of varying heat levels. Some kind of food with which to eat the sauces. Preferably water and/or milk on standby.</li>
+                                <li>Plenty of toilet paper, for later. Also, the good common sense to wash hands BEFORE going potty, as well as after.</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-danger" style="font-family:Yeon Sung;">Minigames</h2>
+                        <div>
+                            <p>Roll a 10- or 20-sided die (or select your six favorite minigames and roll a regular 6-sided die, you normie).
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Trivia</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>Each player rolls the die again to determine a trivia category
+                                <ol>
+                                    <li>Sports and Games</li>
+                                    <li>TV and Film</li>
+                                    <li>Science</li>
+                                    <li>Art and Literature</li>
+                                    <li>History and Geography</li>
+                                </ol>
+                                <p>Another player will Google an appropriately-challenging trivia question. If the rolling player gets the question right, the earn a point. If they get the question wrong, it’s punishment time!
+                            </div>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Sing-Along</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Each player calls out a Disney or traditional folk song, and rolls the die. The first time the die lands on 1, the song is chosen for the round. All players must sing along to a video with lyrics for the song’s entire duration to the best of their ability. The only way to lose is to pause for a drink or flat out refuse… In which case, it’s punishment time! Otherwise, all participating players earn a point.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Explain That 'Gram</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Each player must open the social media photo collection of their choice on their phone, and pass it to the person on the left, who must then select an image that the owner must explain to the group’s satisfaction. This is perhaps the easiest task, except for people who don’t or won’t share social media photos with the group - they must suffer the punishment. Everyone else picks up a point after their turn.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Truth or Date</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Each person writes down a question and dare on a sticky note or paper scrap and puts it in a pile. From oldest to youngest, each player draws an item from the pile at random, and may opt to either answer the question honestly or perform the dare. Refusals, failures, and liars earn punishment; everyone else earns a point.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Would You Rather</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Each person writes down a “would you rather” scenario on a sticky note or paper scrap and puts in in a pile. For example, “Would you rather fight a horse sized duck or a duck sized horse?” From youngest to oldest, each player draws an item from the pile at random, and must answer the question with a straight face and without laughing. Any player who refuses, laughs, breaks face, or can’t answer in a reasonable amount of time must suffer a punishment. Every other player earns a point.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Charades</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">The players split into two teams and the group plays a quick round of charades. Simply, the winning team’s players each earn a point, and the losing team’s players each earn a punishment.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Scenes From a Hat</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Each person writes down an improv scenario, eg, “Mickey Mouse tries to rob a bank,” and puts it in a pile. In alphabetical first name order, each player takes an item at random from the pile and acts out the scene. If the group is satisfied, then the player earns a point. If the group is unanimously unimpressed, or the player refuses, the player must take a punishment.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Riddles in the Dark</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Simple - each player is given a hastily Googled riddle by the player on their left. If they answer correctly, they score a point. If they get it wrong, they suffer a punishment.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Blackjack</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Whoever rolls highest gets to be dealer (and must follow Vegas dealer rules.) The group then plays 1 round of Vegas blackjack. Any player busting or failing to beat the dealer gets a punishment. The dealer gets a punishment if they bust or are beaten by any player. Anyone who actually scores 21 with a black jack gets 2 points, oooooh! Anyone else wins 1 point.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+
+                    <div class="card border-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-white bg-danger">
+                            <h3 class="card-title" style="font-family:Yeon Sung">Double Trouble</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">This round is now worth double points, and double punishments. And whomever rolled gets to choose the minigame. And replace one item on the punishment list with a custom punishment of their own choosing.</p>
+                        </div>
+                        <div class="card-footer"><small class="text-muted"></small></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-danger" style="font-family:Yeon Sung;">Punishments</h2>
+                        <div>
+                            <p>These can stack up quickly; its best to avoid a punishment. The player getting punished must roll a die, and either accept the punishment or forfeit the game.
+                        </div>
+                        <ol>
+                            <li>Must eat three bites instead of one.</li>
+                            <li>Must speak in a silly accent the entire rest of the game; a slip up means they lose a point.</li>
+                            <li>Must not use personal pronouns; each slip up means they lose a point.</li>
+                            <li>Lose 3 points immediately.</li>
+                            <li>Give 1 point to the person who rolled the minigame.</li>
+                            <li>Must close eyes and spin around thirteen times after every bite. Throwing up equals forfeit.</li>
+                            <li>Must sing everything in a falsetto instead of speaking or singing any other way. Each slip up costs a point.</li>
+                            <li>Must drink a double shot of hot water before every bite.</li>
+                            <li>Cannot audibly exhale, sigh, groan, moan, or whine. Each slip up costs one point.</li>
+                            <li>Forfeit the right to drink any beverages for the duration of the game.</li>
+                        </ol>
                     </div>
                 </div>
 
@@ -77,8 +243,7 @@
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     </body>
 </html>
